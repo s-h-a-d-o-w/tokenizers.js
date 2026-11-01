@@ -1,4 +1,4 @@
-import { BASE_TEST_STRINGS, M2M_100_TEST_STRINGS } from "../../static/constants";
+import { BASE_TEST_STRINGS, M2M_100_TEST_STRINGS } from "../../static/constants.js";
 
 export default {
   "Xenova/m2m100_418M": {

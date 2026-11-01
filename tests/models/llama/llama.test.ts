@@ -1,5 +1,5 @@
-import { Tokenizer } from "../../../src";
-import fetchConfigById from "../../utils/fetchConfigById";
+import { Tokenizer } from "../../../src/index.js";
+import fetchConfigById from "../../utils/fetchConfigById.js";
 
 describe("hard-coded", () => {
   const TESTS: Record<

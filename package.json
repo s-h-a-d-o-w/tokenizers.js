@@ -11,13 +11,6 @@
   "exports": {
     ".": {
       "types": "./types/index.d.ts",
-      "node": {
-        "require": "./dist/tokenizers.cjs",
-        "import": "./dist/tokenizers.mjs"
-      },
-      "browser": {
-        "import": "./dist/tokenizers.mjs"
-      },
       "default": "./dist/tokenizers.mjs"
     }
   },
@@ -29,7 +22,10 @@
   ],
   "scripts": {
     "clean": "rimraf dist types",
-    "build": "pnpm run clean && node scripts/build.mjs",
+    "build": "pnpm run clean && pnpm run build:types && pnpm run build:bundle && pnpm run build:bundle:min",
+    "build:types": "tsc -p tsconfig.build.json",
+    "build:bundle": "esbuild src/index.ts --bundle --tree-shaking=true --platform=neutral --format=esm --outfile=dist/tokenizers.mjs",
+    "build:bundle:min": "esbuild src/index.ts --bundle --tree-shaking=true --platform=neutral --format=esm --minify --outfile=dist/tokenizers.min.mjs",
     "dev": "pnpm run clean && node scripts/dev.mjs",
     "lint": "eslint src --ext .ts,.tsx",
     "test": "node --experimental-vm-modules --expose-gc --max-old-space-size=4096 node_modules/jest/bin/jest.js --verbose --logHeapUsage --maxWorkers=10%",
@@ -53,7 +49,6 @@
     "rimraf": "^6.0.1",
     "terser": "^5.40.0",
     "ts-jest": "^29.4.4",
-    "tsc-alias": "^1.8.16",
     "typescript": "^5.4.0"
   },
   "repository": {

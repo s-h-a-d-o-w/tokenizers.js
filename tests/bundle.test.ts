@@ -46,10 +46,6 @@ describe("Testing the bundle", () => {
     check(`import ${IMPORT} from "${MODULE_NAME}";${CODE_BODY}`, true);
   });
 
-  it("CommonJS (CJS) with require", () => {
-    check(`const ${IMPORT} = require("${MODULE_NAME}");${wrap_async_iife(CODE_BODY)}`);
-  });
-
   it("CommonJS (CJS) with dynamic import", () => {
     check(`${wrap_async_iife(`const ${IMPORT} = await import("${MODULE_NAME}");${CODE_BODY}`)}`);
   });

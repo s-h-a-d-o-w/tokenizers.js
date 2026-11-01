@@ -37,4 +37,5 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm run build
+      - run: pnpx @arethetypeswrong/cli --pack . --ignore-rules cjs-resolves-to-esm
       - run: pnpm run test

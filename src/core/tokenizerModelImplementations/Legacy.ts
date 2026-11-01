@@ -1,7 +1,7 @@
-import TokenizerModel from "../TokenizerModel";
-import { object_to_map } from "@utils/core";
+import TokenizerModel from "../TokenizerModel.js";
+import { object_to_map } from "../../utils/core.js";
 
-import type { TokenizerModelConfigLegacy } from "@static/tokenizer";
+import type { TokenizerModelConfigLegacy } from "../../static/tokenizer.js";
 
 /**
  * Legacy tokenizer class for tokenizers with only a vocabulary.

@@ -1,7 +1,7 @@
-import PostProcessor, { type PostProcessedOutput } from "../PostProcessor";
-import { merge_arrays } from "@utils/core";
+import PostProcessor, { type PostProcessedOutput } from "../PostProcessor.js";
+import { merge_arrays } from "../../utils/core.js";
 
-import type { TokenizerConfigPostProcessorTemplateProcessing } from "@static/tokenizer";
+import type { TokenizerConfigPostProcessorTemplateProcessing } from "../../static/tokenizer.js";
 
 /**
  * Post processor that replaces special tokens in a template with actual tokens.

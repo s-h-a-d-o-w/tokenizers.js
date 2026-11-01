@@ -1,9 +1,9 @@
-import TokenizerModel from "../TokenizerModel";
-import { object_to_map } from "@utils/core";
-import PriorityQueue from "@utils/data-structures/PriorityQueue";
-import LRUCache from "@utils/data-structures/LRUCache";
+import TokenizerModel from "../TokenizerModel.js";
+import { object_to_map } from "../../utils/core.js";
+import PriorityQueue from "../../utils/data-structures/PriorityQueue.js";
+import LRUCache from "../../utils/data-structures/LRUCache.js";
 
-import type { TokenizerConfigBPEModel } from "@static/tokenizer";
+import type { TokenizerConfigBPEModel } from "../../static/tokenizer.js";
 
 interface BPENode {
   token: string;

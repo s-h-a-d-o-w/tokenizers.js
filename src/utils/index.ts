@@ -1,1 +1,1 @@
-export { default as Callable } from "./Callable";
+export { default as Callable } from "./Callable.js";

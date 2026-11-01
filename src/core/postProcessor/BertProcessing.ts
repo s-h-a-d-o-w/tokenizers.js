@@ -1,7 +1,7 @@
-import PostProcessor, { type PostProcessedOutput } from "../PostProcessor";
-import { merge_arrays } from "@utils/core";
+import PostProcessor, { type PostProcessedOutput } from "../PostProcessor.js";
+import { merge_arrays } from "../../utils/core.js";
 
-import type { TokenizerConfigPostProcessorBert } from "@static/tokenizer";
+import type { TokenizerConfigPostProcessorBert } from "../../static/tokenizer.js";
 
 /**
  * A post-processor that adds special tokens to the beginning and end of the input.

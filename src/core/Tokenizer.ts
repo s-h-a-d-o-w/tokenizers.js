@@ -1,29 +1,29 @@
-import DictionarySplitter from "@utils/data-structures/DictionarySplitter";
-import AddedToken from "./AddedToken";
+import DictionarySplitter from "../utils/data-structures/DictionarySplitter.js";
+import AddedToken from "./AddedToken.js";
 import {
   clean_up_tokenization,
   is_integral_number,
   lowercase_and_remove_accents,
   merge_arrays,
   validate_object,
-} from "@utils/core";
-import create_normalizer from "./normalizer/create_normalizer";
-import create_pre_tokenizer from "./preTokenizer/create_pre_tokenizer";
-import create_tokenizer_model from "./tokenizerModelImplementations/create_tokenizer_model";
-import create_post_processor from "./postProcessor/create_post_processor";
-import create_decoder from "./decoder/create_decoder";
+} from "../utils/core.js";
+import create_normalizer from "./normalizer/create_normalizer.js";
+import create_pre_tokenizer from "./preTokenizer/create_pre_tokenizer.js";
+import create_tokenizer_model from "./tokenizerModelImplementations/create_tokenizer_model.js";
+import create_post_processor from "./postProcessor/create_post_processor.js";
+import create_decoder from "./decoder/create_decoder.js";
 
-import type { Encoding } from "@static/types";
-import type Normalizer from "./Normalizer";
-import type PreTokenizer from "./PreTokenizer";
-import type TokenizerModel from "./TokenizerModel";
-import type PostProcessor from "./PostProcessor";
-import type Decoder from "./Decoder";
+import type { Encoding } from "../static/types.js";
+import type Normalizer from "./Normalizer.js";
+import type PreTokenizer from "./PreTokenizer.js";
+import type TokenizerModel from "./TokenizerModel.js";
+import type PostProcessor from "./PostProcessor.js";
+import type Decoder from "./Decoder.js";
 import type {
   TokenConfig,
   TokenizerConfig,
   TokenizerJSON,
-} from "@static/tokenizer";
+} from "../static/tokenizer.js";
 
 interface EncodeOptions {
   text_pair?: string | null;

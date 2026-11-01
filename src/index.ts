@@ -1,10 +1,10 @@
-export { default as Tokenizer } from "./core/Tokenizer";
-export { default as AddedToken } from "./core/AddedToken";
-export type { Encoding } from "./static/types";
+export { default as Tokenizer } from "./core/Tokenizer.js";
+export { default as AddedToken } from "./core/AddedToken.js";
+export type { Encoding } from "./static/types.js";
 
 // Export all components
-export * from "./decoders";
-export * from "./models";
-export * from "./normalizers";
-export * from "./pre-tokenizers";
-export * from "./post-processors";
+export * from "./decoders.js";
+export * from "./models.js";
+export * from "./normalizers.js";
+export * from "./pre-tokenizers.js";
+export * from "./post-processors.js";

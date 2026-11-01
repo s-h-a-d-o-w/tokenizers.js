@@ -1,4 +1,4 @@
-import { BASE_TEST_STRINGS, WHISPER_TEST_STRINGS } from "../../static/constants";
+import { BASE_TEST_STRINGS, WHISPER_TEST_STRINGS } from "../../static/constants.js";
 
 export default {
   "onnx-community/whisper-tiny.en": {

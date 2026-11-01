@@ -1,7 +1,7 @@
-import PostProcessor, { type PostProcessedOutput } from "../PostProcessor";
-import create_post_processor from "./create_post_processor";
+import PostProcessor, { type PostProcessedOutput } from "../PostProcessor.js";
+import create_post_processor from "./create_post_processor.js";
 
-import type { TokenizerConfigPostProcessorSequence } from "@static/tokenizer";
+import type { TokenizerConfigPostProcessorSequence } from "../../static/tokenizer.js";
 
 /**
  * A post-processor that applies multiple post-processors in sequence.

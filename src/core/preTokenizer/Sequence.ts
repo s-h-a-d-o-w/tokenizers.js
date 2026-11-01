@@ -1,7 +1,7 @@
-import PreTokenizer from "@core/PreTokenizer";
-import create_pre_tokenizer from "./create_pre_tokenizer";
+import PreTokenizer from "../PreTokenizer.js";
+import create_pre_tokenizer from "./create_pre_tokenizer.js";
 
-import type { TokenizerConfigPreTokenizerSequence } from "@static/tokenizer";
+import type { TokenizerConfigPreTokenizerSequence } from "../../static/tokenizer.js";
 
 /**
  * A pre-tokenizer that applies a sequence of pre-tokenizers to the input text.

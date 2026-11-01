@@ -1,4 +1,4 @@
-import UnicodeNormalizer from "./UnicodeNormalizer";
+import UnicodeNormalizer from "./UnicodeNormalizer.js";
 
 /**
  * A normalizer that applies Unicode normalization form C (NFC) to the input text.

@@ -1,6 +1,6 @@
-import Normalizer from "../Normalizer";
+import Normalizer from "../Normalizer.js";
 
-import type { TokenizerConfigNormalizerStrip } from "@static/tokenizer";
+import type { TokenizerConfigNormalizerStrip } from "../../static/tokenizer.js";
 
 /**
  * A normalizer that strips leading and/or trailing whitespace from the input text.

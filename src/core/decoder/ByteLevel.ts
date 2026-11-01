@@ -1,7 +1,7 @@
-import Decoder from "../Decoder";
-import { UNICODE_TO_BYTES } from "@static/constants";
+import Decoder from "../Decoder.js";
+import { UNICODE_TO_BYTES } from "../../static/constants.js";
 
-import type { TokenizerConfigDecoderByteLevel } from "@static/tokenizer";
+import type { TokenizerConfigDecoderByteLevel } from "../../static/tokenizer.js";
 
 /**
  * Byte-level decoder for tokenization output. Inherits from the `Decoder` class.

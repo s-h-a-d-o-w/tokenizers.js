@@ -1,4 +1,4 @@
-import { BASE_TEST_STRINGS, BLENDERBOT_SMALL_TEST_STRINGS } from "../../static/constants";
+import { BASE_TEST_STRINGS, BLENDERBOT_SMALL_TEST_STRINGS } from "../../static/constants.js";
 
 export default {
   "Xenova/blenderbot_small-90M": {

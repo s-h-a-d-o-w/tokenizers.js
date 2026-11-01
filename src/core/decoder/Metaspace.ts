@@ -1,5 +1,5 @@
-import Decoder from "../Decoder";
-import { TokenizerConfigDecoderMetaspace } from "@static/tokenizer";
+import Decoder from "../Decoder.js";
+import { TokenizerConfigDecoderMetaspace } from "../../static/tokenizer.js";
 
 /**
  * MetaspaceDecoder class extends the Decoder class and decodes Metaspace tokenization.

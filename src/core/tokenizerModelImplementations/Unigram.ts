@@ -1,10 +1,10 @@
-import TokenizerModel from "../TokenizerModel";
-import CharTrie from "@utils/data-structures/CharTrie";
-import TokenLattice from "@utils/data-structures/TokenLattice";
-import { min } from "@utils/maths";
-import { len } from "@utils/core";
+import TokenizerModel from "../TokenizerModel.js";
+import CharTrie from "../../utils/data-structures/CharTrie.js";
+import TokenLattice from "../../utils/data-structures/TokenLattice.js";
+import { min } from "../../utils/maths.js";
+import { len } from "../../utils/core.js";
 
-import type { TokenizerConfigUnigramModel } from "@static/tokenizer";
+import type { TokenizerConfigUnigramModel } from "../../static/tokenizer.js";
 
 /**
  * Class representing a Unigram tokenizer model.

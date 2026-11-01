@@ -1,17 +1,17 @@
-import ByteLevel from "./ByteLevel";
-import Whitespace from "./Whitespace";
-import Metaspace from "./Metaspace";
-import Split from "./Split";
-import Punctuation from "./Punctuation";
-import Digits from "./Digits";
-import BertPreTokenizer from "./BertPreTokenizer";
-import Replace from "./Replace";
-import Sequence from "./Sequence";
-import WhitespaceSplit from "./WhitespaceSplit";
-import FixedLength from "./FixedLength";
+import ByteLevel from "./ByteLevel.js";
+import Whitespace from "./Whitespace.js";
+import Metaspace from "./Metaspace.js";
+import Split from "./Split.js";
+import Punctuation from "./Punctuation.js";
+import Digits from "./Digits.js";
+import BertPreTokenizer from "./BertPreTokenizer.js";
+import Replace from "./Replace.js";
+import Sequence from "./Sequence.js";
+import WhitespaceSplit from "./WhitespaceSplit.js";
+import FixedLength from "./FixedLength.js";
 
-import type PreTokenizer from "../PreTokenizer";
-import type { TokenizerConfigPreTokenizer } from "@static/tokenizer";
+import type PreTokenizer from "../PreTokenizer.js";
+import type { TokenizerConfigPreTokenizer } from "../../static/tokenizer.js";
 
 function create_pre_tokenizer(
   config: TokenizerConfigPreTokenizer,

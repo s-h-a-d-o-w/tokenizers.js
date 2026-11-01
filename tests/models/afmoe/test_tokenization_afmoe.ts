@@ -1,4 +1,4 @@
-import { AFMOE_TEST_STRINGS } from "../../static/constants";
+import { AFMOE_TEST_STRINGS } from "../../static/constants.js";
 
 export default {
   "arcee-ai/Trinity-Nano-Preview": {

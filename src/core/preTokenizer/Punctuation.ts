@@ -1,7 +1,7 @@
-import PreTokenizer from "@core/PreTokenizer";
-import { PUNCTUATION_REGEX } from "@static/constants";
+import PreTokenizer from "../PreTokenizer.js";
+import { PUNCTUATION_REGEX } from "../../static/constants.js";
 
-import type { TokenizerConfigPreTokenizerPunctuation } from "@static/tokenizer";
+import type { TokenizerConfigPreTokenizerPunctuation } from "../../static/tokenizer.js";
 
 /**
  * Splits text based on punctuation.

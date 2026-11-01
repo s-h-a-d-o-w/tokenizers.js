@@ -1,4 +1,4 @@
-import { TokenizerJSON, TokenizerConfig } from "../../src/static/tokenizer";
+import { TokenizerJSON, TokenizerConfig } from "../../src/static/tokenizer.js";
 import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "node:url";

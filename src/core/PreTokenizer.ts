@@ -1,6 +1,6 @@
-import { Callable } from "@utils";
+import { Callable } from "../utils/index.js";
 
-import type { PreTokenizeTextOptions } from "@static/tokenizer";
+import type { PreTokenizeTextOptions } from "../static/tokenizer.js";
 
 /**
  * A callable class representing a pre-tokenizer used in tokenization. Subclasses

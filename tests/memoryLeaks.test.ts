@@ -1,5 +1,5 @@
-import fetchConfigById from "./utils/fetchConfigById";
-import { Tokenizer } from "../src";
+import fetchConfigById from "./utils/fetchConfigById.js";
+import { Tokenizer } from "../src/index.js";
 
 describe("Memory leak tests", () => {
   it("should not leak memory", async () => {

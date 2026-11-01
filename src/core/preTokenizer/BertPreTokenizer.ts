@@ -1,5 +1,5 @@
-import PreTokenizer from "../PreTokenizer";
-import { PUNCTUATION_REGEX } from "@static/constants";
+import PreTokenizer from "../PreTokenizer.js";
+import { PUNCTUATION_REGEX } from "../../static/constants.js";
 
 /**
  * A PreTokenizer that splits text into wordpieces using a basic tokenization scheme

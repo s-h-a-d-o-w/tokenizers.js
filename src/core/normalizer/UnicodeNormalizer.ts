@@ -1,4 +1,4 @@
-import Normalizer from "../Normalizer";
+import Normalizer from "../Normalizer.js";
 
 /**
  * A normalizer that applies Unicode normalization to the input text.

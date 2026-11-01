@@ -1,7 +1,7 @@
-import PreTokenizer from "@core/PreTokenizer";
-import { BYTES_TO_UNICODE } from "@static/constants";
+import PreTokenizer from "../PreTokenizer.js";
+import { BYTES_TO_UNICODE } from "../../static/constants.js";
 
-import type { TokenizerConfigPreTokenizerByteLevel } from "@static/tokenizer";
+import type { TokenizerConfigPreTokenizerByteLevel } from "../../static/tokenizer.js";
 
 /**
  * A pre-tokenizer that splits text into Byte-Pair-Encoding (BPE) subwords.

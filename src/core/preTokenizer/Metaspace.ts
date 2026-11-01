@@ -1,10 +1,10 @@
-import PreTokenizer from "@core/PreTokenizer";
+import PreTokenizer from "../PreTokenizer.js";
 
 import type {
   TokenizerConfigPreTokenizerMetaspace,
   PrependScheme,
   PreTokenizeTextOptions,
-} from "@static/tokenizer";
+} from "../../static/tokenizer.js";
 
 /**
  * This PreTokenizer replaces spaces with the given replacement character, adds a prefix space if requested,

@@ -1,6 +1,6 @@
-import Decoder from "../Decoder";
+import Decoder from "../Decoder.js";
 
-import type { TokenizerConfigDecoderBPE } from "@static/tokenizer";
+import type { TokenizerConfigDecoderBPE } from "../../static/tokenizer.js";
 
 class BPE extends Decoder {
   suffix: string;

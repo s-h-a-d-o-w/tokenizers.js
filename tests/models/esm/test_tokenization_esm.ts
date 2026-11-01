@@ -1,4 +1,4 @@
-import { BASE_TEST_STRINGS, ESM_TEST_STRINGS } from "../../static/constants";
+import { BASE_TEST_STRINGS, ESM_TEST_STRINGS } from "../../static/constants.js";
 
 export default {
   "Xenova/nucleotide-transformer-500m-human-ref": {

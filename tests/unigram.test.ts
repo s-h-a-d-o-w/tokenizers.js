@@ -1,5 +1,5 @@
-import { Unigram } from "../src";
-import CharTrie from "../src/utils/data-structures/CharTrie";
+import { Unigram } from "../src/index.js";
+import CharTrie from "../src/utils/data-structures/CharTrie.js";
 
 describe("CharTrie", () => {
   it("searches the trie from a character offset", () => {

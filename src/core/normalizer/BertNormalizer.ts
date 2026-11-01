@@ -1,7 +1,7 @@
-import { is_chinese_char } from "@utils/core";
-import Normalizer from "../Normalizer";
+import { is_chinese_char } from "../../utils/core.js";
+import Normalizer from "../Normalizer.js";
 
-import type { TokenizerConfigNormalizerBert } from "@static/tokenizer";
+import type { TokenizerConfigNormalizerBert } from "../../static/tokenizer.js";
 
 /**
  * A class representing a normalizer used in BERT tokenization.

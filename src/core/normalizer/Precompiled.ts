@@ -1,6 +1,6 @@
-import Normalizer from "../Normalizer";
+import Normalizer from "../Normalizer.js";
 
-import type { TokenizerConfigNormalizerPrecompiled } from "@static/tokenizer";
+import type { TokenizerConfigNormalizerPrecompiled } from "../../static/tokenizer.js";
 
 /**
  * A normalizer that applies a precompiled charsmap.

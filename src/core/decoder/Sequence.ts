@@ -1,6 +1,6 @@
-import Decoder from "../Decoder";
-import { TokenizerConfigDecoderSequence } from "@static/tokenizer";
-import create_decoder from "./create_decoder";
+import Decoder from "../Decoder.js";
+import { TokenizerConfigDecoderSequence } from "../../static/tokenizer.js";
+import create_decoder from "./create_decoder.js";
 
 /**
  * Apply a sequence of decoders.

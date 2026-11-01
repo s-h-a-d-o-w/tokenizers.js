@@ -1,11 +1,11 @@
-import TemplateProcessing from "./TemplateProcessing";
-import ByteLevel from "./ByteLevel";
-import BertProcessing from "./BertProcessing";
-import RobertaProcessing from "./RobertaProcessing";
-import Sequence from "./Sequence";
+import TemplateProcessing from "./TemplateProcessing.js";
+import ByteLevel from "./ByteLevel.js";
+import BertProcessing from "./BertProcessing.js";
+import RobertaProcessing from "./RobertaProcessing.js";
+import Sequence from "./Sequence.js";
 
-import type PostProcessor from "../PostProcessor";
-import type { TokenizerConfigPostProcessor } from "@static/tokenizer";
+import type PostProcessor from "../PostProcessor.js";
+import type { TokenizerConfigPostProcessor } from "../../static/tokenizer.js";
 
 function create_post_processor(
   config: TokenizerConfigPostProcessor,

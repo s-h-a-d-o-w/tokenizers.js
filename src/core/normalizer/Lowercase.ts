@@ -1,6 +1,6 @@
-import Normalizer from "../Normalizer";
+import Normalizer from "../Normalizer.js";
 
-import type { TokenizerConfigNormalizerLowercase } from "@static/tokenizer";
+import type { TokenizerConfigNormalizerLowercase } from "../../static/tokenizer.js";
 
 /**
  * A Normalizer that lowercases the input string.

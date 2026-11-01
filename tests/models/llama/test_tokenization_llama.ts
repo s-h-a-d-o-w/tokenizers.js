@@ -1,5 +1,5 @@
-import { BASE_TEST_STRINGS, LLAMA_TEST_STRINGS } from "../../static/constants";
-import { TestConfig } from "../../static/types";
+import { BASE_TEST_STRINGS, LLAMA_TEST_STRINGS } from "../../static/constants.js";
+import { TestConfig } from "../../static/types.js";
 
 const testConfig: TestConfig = {
   "Xenova/llama-tokenizer": {

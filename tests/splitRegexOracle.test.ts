@@ -1,8 +1,8 @@
 import { readFileSync } from "node:fs";
 import { gunzipSync } from "node:zlib";
-import Split from "../src/core/preTokenizer/Split";
+import Split from "../src/core/preTokenizer/Split.js";
 
-import type { TokenizerConfigPreTokenizerSplit } from "../src/static/tokenizer";
+import type { TokenizerConfigPreTokenizerSplit } from "../src/static/tokenizer.js";
 
 type SplitBehavior = TokenizerConfigPreTokenizerSplit["behavior"];
 

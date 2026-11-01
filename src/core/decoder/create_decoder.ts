@@ -1,16 +1,16 @@
-import ByteLevel from "./ByteLevel";
-import WordPiece from "./WordPiece";
-import Metaspace from "./Metaspace";
-import BPE from "./BPE";
-import CTC from "./CTC";
-import Sequence from "./Sequence";
-import Replace from "./Replace";
-import Fuse from "./Fuse";
-import Strip from "./Strip";
-import ByteFallback from "./ByteFallback";
+import ByteLevel from "./ByteLevel.js";
+import WordPiece from "./WordPiece.js";
+import Metaspace from "./Metaspace.js";
+import BPE from "./BPE.js";
+import CTC from "./CTC.js";
+import Sequence from "./Sequence.js";
+import Replace from "./Replace.js";
+import Fuse from "./Fuse.js";
+import Strip from "./Strip.js";
+import ByteFallback from "./ByteFallback.js";
 
-import type Decoder from "../Decoder";
-import type { TokenizerConfigDecoder } from "@static/tokenizer";
+import type Decoder from "../Decoder.js";
+import type { TokenizerConfigDecoder } from "../../static/tokenizer.js";
 
 function create_decoder(config: TokenizerConfigDecoder): Decoder | null {
   if (config === null) return null;

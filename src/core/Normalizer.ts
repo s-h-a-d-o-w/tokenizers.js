@@ -1,6 +1,6 @@
-import { Callable } from "@utils";
+import { Callable } from "../utils/index.js";
 
-import type { TokenizerConfigNormalizer } from "@static/tokenizer";
+import type { TokenizerConfigNormalizer } from "../static/tokenizer.js";
 
 /**
  * A base class for text normalization.

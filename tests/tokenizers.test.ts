@@ -1,6 +1,6 @@
-import fetchConfigById from "./utils/fetchConfigById";
-import { Tokenizer, AddedToken } from "../src";
-import collectTests from "./utils/collectTests";
+import fetchConfigById from "./utils/fetchConfigById.js";
+import { Tokenizer, AddedToken } from "../src/index.js";
+import collectTests from "./utils/collectTests.js";
 
 const TOKENIZER_TESTS = await collectTests();
 

@@ -1,4 +1,4 @@
-import { BASE_TEST_STRINGS } from "../../static/constants";
+import { BASE_TEST_STRINGS } from "../../static/constants.js";
 
 export default {
   "Xenova/all-mpnet-base-v2": {

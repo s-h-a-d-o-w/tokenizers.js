@@ -1,4 +1,4 @@
-import PostProcessor, { type PostProcessedOutput } from "../PostProcessor";
+import PostProcessor, { type PostProcessedOutput } from "../PostProcessor.js";
 
 /**
  * A PostProcessor that returns the given tokens as is.

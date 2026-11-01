@@ -1,6 +1,6 @@
-import fetchConfigById from "./utils/fetchConfigById";
-import { Tokenizer } from "../src";
-import { create_pattern } from "../src/utils/core";
+import fetchConfigById from "./utils/fetchConfigById.js";
+import { Tokenizer } from "../src/index.js";
+import { create_pattern } from "../src/utils/core.js";
 
 const compile_regex = (source: string): RegExp => {
   const pattern = create_pattern({ Regex: source });

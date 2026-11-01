@@ -1,4 +1,4 @@
-import PreTokenizer from "@core/PreTokenizer";
+import PreTokenizer from "../PreTokenizer.js";
 
 /**
  * Splits on word boundaries (using the following regular expression: `\w+|[^\w\s]+`).

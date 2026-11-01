@@ -1,5 +1,5 @@
-import PreTokenizer from "@core/PreTokenizer";
-import type { TokenizerConfigPreTokenizerFixedLength } from "@static/tokenizer";
+import PreTokenizer from "../PreTokenizer.js";
+import type { TokenizerConfigPreTokenizerFixedLength } from "../../static/tokenizer.js";
 
 /**
  * Splits into fixed-length tokens.

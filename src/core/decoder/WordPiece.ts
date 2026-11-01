@@ -1,6 +1,6 @@
-import Decoder from "../Decoder";
-import { clean_up_tokenization } from "@utils/core";
-import { TokenizerConfigDecoderWordPiece } from "@static/tokenizer";
+import Decoder from "../Decoder.js";
+import { clean_up_tokenization } from "../../utils/core.js";
+import { TokenizerConfigDecoderWordPiece } from "../../static/tokenizer.js";
 
 /**
  * A decoder that decodes a list of WordPiece tokens into a single string.

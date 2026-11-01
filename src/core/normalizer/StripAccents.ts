@@ -1,7 +1,7 @@
-import Normalizer from "../Normalizer";
-import { remove_accents } from "@utils/core";
+import Normalizer from "../Normalizer.js";
+import { remove_accents } from "../../utils/core.js";
 
-import type { TokenizerConfigNormalizerStripAccents } from "@static/tokenizer";
+import type { TokenizerConfigNormalizerStripAccents } from "../../static/tokenizer.js";
 
 /**
  * StripAccents normalizer removes all accents from the text.

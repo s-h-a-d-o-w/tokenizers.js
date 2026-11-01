@@ -1,12 +1,12 @@
-export { default as Decoder } from "./core/Decoder";
+export { default as Decoder } from "./core/Decoder.js";
 
-export { default as BPEDecoder } from "./core/decoder/BPE";
-export { default as ByteFallbackDecoder } from "./core/decoder/ByteFallback";
-export { default as ByteLevelDecoder } from "./core/decoder/ByteLevel";
-export { default as ReplaceDecoder } from "./core/decoder/Replace";
-export { default as WordPieceDecoder } from "./core/decoder/WordPiece";
-export { default as FuseDecoder } from "./core/decoder/Fuse";
-export { default as StripDecoder } from "./core/decoder/Strip";
-export { default as MetaspaceDecoder } from "./core/decoder/Metaspace";
-export { default as CTCDecoder } from "./core/decoder/CTC";
-export { default as SequenceDecoder } from "./core/decoder/Sequence";
+export { default as BPEDecoder } from "./core/decoder/BPE.js";
+export { default as ByteFallbackDecoder } from "./core/decoder/ByteFallback.js";
+export { default as ByteLevelDecoder } from "./core/decoder/ByteLevel.js";
+export { default as ReplaceDecoder } from "./core/decoder/Replace.js";
+export { default as WordPieceDecoder } from "./core/decoder/WordPiece.js";
+export { default as FuseDecoder } from "./core/decoder/Fuse.js";
+export { default as StripDecoder } from "./core/decoder/Strip.js";
+export { default as MetaspaceDecoder } from "./core/decoder/Metaspace.js";
+export { default as CTCDecoder } from "./core/decoder/CTC.js";
+export { default as SequenceDecoder } from "./core/decoder/Sequence.js";

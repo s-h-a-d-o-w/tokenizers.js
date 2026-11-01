@@ -1,6 +1,6 @@
-import Normalizer from "../Normalizer";
+import Normalizer from "../Normalizer.js";
 
-import type { TokenizerConfigNormalizerPrepend } from "@static/tokenizer";
+import type { TokenizerConfigNormalizerPrepend } from "../../static/tokenizer.js";
 
 /**
  * A Normalizer that prepends a string to the input string.

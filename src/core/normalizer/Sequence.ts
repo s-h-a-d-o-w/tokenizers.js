@@ -1,7 +1,7 @@
-import Normalizer from "../Normalizer";
-import create_normalizer from "./create_normalizer";
+import Normalizer from "../Normalizer.js";
+import create_normalizer from "./create_normalizer.js";
 
-import type { TokenizerConfigNormalizerSequence } from "@static/tokenizer";
+import type { TokenizerConfigNormalizerSequence } from "../../static/tokenizer.js";
 
 /**
  * A Normalizer that applies a sequence of Normalizers.

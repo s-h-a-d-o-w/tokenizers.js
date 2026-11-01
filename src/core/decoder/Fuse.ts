@@ -1,4 +1,4 @@
-import Decoder from "../Decoder";
+import Decoder from "../Decoder.js";
 
 /**
  * Fuse simply fuses all tokens into one big string.

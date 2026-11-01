@@ -1,6 +1,6 @@
-import Decoder from "../Decoder";
-import { clean_up_tokenization } from "@utils/core";
-import { TokenizerConfigDecoderCTC } from "@static/tokenizer";
+import Decoder from "../Decoder.js";
+import { clean_up_tokenization } from "../../utils/core.js";
+import { TokenizerConfigDecoderCTC } from "../../static/tokenizer.js";
 
 /**
  * The CTC (Connectionist Temporal Classification) decoder.

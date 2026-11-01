@@ -1,7 +1,7 @@
-import Normalizer from "../Normalizer";
-import { create_pattern } from "@utils/core";
+import Normalizer from "../Normalizer.js";
+import { create_pattern } from "../../utils/core.js";
 
-import type { TokenizerConfigNormalizerReplace } from "@static/tokenizer";
+import type { TokenizerConfigNormalizerReplace } from "../../static/tokenizer.js";
 
 /**
  * Replace normalizer that replaces occurrences of a pattern with a given string or regular expression.

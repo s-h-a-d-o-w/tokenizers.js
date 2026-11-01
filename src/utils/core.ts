@@ -1,4 +1,4 @@
-import { ReplacePattern } from "@static/tokenizer";
+import { ReplacePattern } from "../static/tokenizer.js";
 
 // Oniguruma permits bare script properties such as `\p{Han}`; JavaScript requires
 // `\p{Script=Han}`. Retry without relying on engine-specific SyntaxError messages.

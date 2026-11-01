@@ -1,6 +1,6 @@
-import TokenizerModel from "../TokenizerModel";
-import { object_to_map } from "@utils/core";
-import { TokenizerConfigWordPieceModel } from "@static/tokenizer";
+import TokenizerModel from "../TokenizerModel.js";
+import { object_to_map } from "../../utils/core.js";
+import { TokenizerConfigWordPieceModel } from "../../static/tokenizer.js";
 
 /**
  * A subclass of TokenizerModel that uses WordPiece encoding to encode tokens.

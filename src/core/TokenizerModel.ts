@@ -1,7 +1,7 @@
-import { Callable } from "@utils";
-import { fuse_unk } from "@utils/core";
+import { Callable } from "../utils/index.js";
+import { fuse_unk } from "../utils/core.js";
 
-import type { TokenizerModelConfig } from "@static/tokenizer";
+import type { TokenizerModelConfig } from "../static/tokenizer.js";
 
 /**
  * Abstract base class for tokenizer models.

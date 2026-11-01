@@ -1,6 +1,6 @@
-import PreTokenizer from "@core/PreTokenizer";
+import PreTokenizer from "../PreTokenizer.js";
 
-import type { TokenizerConfigPreTokenizerDigits } from "@static/tokenizer";
+import type { TokenizerConfigPreTokenizerDigits } from "../../static/tokenizer.js";
 
 /**
  * Splits text based on digits.

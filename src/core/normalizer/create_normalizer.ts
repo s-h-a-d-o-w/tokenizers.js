@@ -1,18 +1,18 @@
-import BertNormalizer from "./BertNormalizer";
-import Precompiled from "./Precompiled";
-import Sequence from "./Sequence";
-import Replace from "./Replace";
-import NFC from "./NFC";
-import NFD from "./NFD";
-import NFKC from "./NFKC";
-import NFKD from "./NFKD";
-import Strip from "./Strip";
-import StripAccents from "./StripAccents";
-import Lowercase from "./Lowercase";
-import Prepend from "./Prepend";
+import BertNormalizer from "./BertNormalizer.js";
+import Precompiled from "./Precompiled.js";
+import Sequence from "./Sequence.js";
+import Replace from "./Replace.js";
+import NFC from "./NFC.js";
+import NFD from "./NFD.js";
+import NFKC from "./NFKC.js";
+import NFKD from "./NFKD.js";
+import Strip from "./Strip.js";
+import StripAccents from "./StripAccents.js";
+import Lowercase from "./Lowercase.js";
+import Prepend from "./Prepend.js";
 
-import type { TokenizerConfigNormalizer } from "@static/tokenizer";
-import type Normalizer from "../Normalizer";
+import type { TokenizerConfigNormalizer } from "../../static/tokenizer.js";
+import type Normalizer from "../Normalizer.js";
 
 function create_normalizer(
   config: TokenizerConfigNormalizer,

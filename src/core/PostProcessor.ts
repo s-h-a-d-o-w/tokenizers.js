@@ -1,6 +1,6 @@
-import { Callable } from "@utils";
+import { Callable } from "../utils/index.js";
 
-import type { TokenizerConfigPostProcessor } from "@static/tokenizer";
+import type { TokenizerConfigPostProcessor } from "../static/tokenizer.js";
 
 export interface PostProcessedOutput {
   tokens: string[];

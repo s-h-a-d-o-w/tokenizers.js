@@ -1,7 +1,7 @@
-import PreTokenizer from "@core/PreTokenizer";
-import { create_pattern } from "@utils/core";
+import PreTokenizer from "../PreTokenizer.js";
+import { create_pattern } from "../../utils/core.js";
 
-import type { TokenizerConfigPreTokenizerReplace } from "@static/tokenizer";
+import type { TokenizerConfigPreTokenizerReplace } from "../../static/tokenizer.js";
 
 // NOTE: `Replace` PreTokenizer is custom (to support `BlenderbotSmallTokenizer`)
 class Replace extends PreTokenizer {

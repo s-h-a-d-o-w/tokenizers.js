@@ -1,4 +1,4 @@
-import { BASE_TEST_STRINGS, BERT_TEST_STRINGS } from "../../static/constants";
+import { BASE_TEST_STRINGS, BERT_TEST_STRINGS } from "../../static/constants.js";
 
 export default {
   "Xenova/nli-deberta-v3-small": {

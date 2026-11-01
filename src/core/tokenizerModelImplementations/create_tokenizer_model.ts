@@ -1,10 +1,13 @@
-import WordPiece from "./WordPiece";
-import Unigram from "./Unigram";
-import BPE from "./BPE";
-import Legacy from "./Legacy";
+import WordPiece from "./WordPiece.js";
+import Unigram from "./Unigram.js";
+import BPE from "./BPE.js";
+import Legacy from "./Legacy.js";
 
-import type TokenizerModel from "../TokenizerModel";
-import type { TokenizerModelConfig, TokenizerConfig } from "@static/tokenizer";
+import type TokenizerModel from "../TokenizerModel.js";
+import type {
+  TokenizerModelConfig,
+  TokenizerConfig,
+} from "../../static/tokenizer.js";
 
 function create_tokenizer_model(
   model_config: TokenizerModelConfig,

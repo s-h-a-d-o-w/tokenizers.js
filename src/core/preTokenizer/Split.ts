@@ -1,7 +1,7 @@
-import PreTokenizer from "@core/PreTokenizer";
-import { regex_split, create_pattern } from "@utils/core";
+import PreTokenizer from "../PreTokenizer.js";
+import { regex_split, create_pattern } from "../../utils/core.js";
 
-import type { TokenizerConfigPreTokenizerSplit } from "@static/tokenizer";
+import type { TokenizerConfigPreTokenizerSplit } from "../../static/tokenizer.js";
 
 /**
  * Splits text using a given pattern.

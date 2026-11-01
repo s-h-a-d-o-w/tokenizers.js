@@ -1,5 +1,5 @@
-import Decoder from "../Decoder";
-import { TokenizerConfigDecoderStrip } from "@static/tokenizer";
+import Decoder from "../Decoder.js";
+import { TokenizerConfigDecoderStrip } from "../../static/tokenizer.js";
 
 class Strip extends Decoder {
   content: string;

@@ -1,4 +1,4 @@
-import { BASE_TEST_STRINGS, BLOOM_TEST_STRINGS, SENTENCEPIECE_TEST_STRINGS } from "../../static/constants";
+import { BASE_TEST_STRINGS, BLOOM_TEST_STRINGS, SENTENCEPIECE_TEST_STRINGS } from "../../static/constants.js";
 
 export default {
   "Xenova/bloom-560m": {

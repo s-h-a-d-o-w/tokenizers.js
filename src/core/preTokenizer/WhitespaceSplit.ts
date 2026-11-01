@@ -1,5 +1,5 @@
-import PreTokenizer from "@core/PreTokenizer";
-import { whitespace_split } from "@utils/core";
+import PreTokenizer from "../PreTokenizer.js";
+import { whitespace_split } from "../../utils/core.js";
 
 /**
  * Splits a string of text by whitespace characters into individual tokens.

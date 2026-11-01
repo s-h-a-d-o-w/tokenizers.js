@@ -1,5 +1,5 @@
-import { YOUTU_TEST_STRINGS } from "../../static/constants";
-import { TestConfig } from "../../static/types";
+import { YOUTU_TEST_STRINGS } from "../../static/constants.js";
+import { TestConfig } from "../../static/types.js";
 
 const testConfig: TestConfig = {
   // - uses problematic (Python-specific) regex: \p{Hangul}, without Script= prefix

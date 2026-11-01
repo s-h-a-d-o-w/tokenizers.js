@@ -1,6 +1,6 @@
-import Decoder from "../Decoder";
-import { create_pattern } from "@utils/core";
-import { TokenizerConfigDecoderReplace } from "@static/tokenizer";
+import Decoder from "../Decoder.js";
+import { create_pattern } from "../../utils/core.js";
+import { TokenizerConfigDecoderReplace } from "../../static/tokenizer.js";
 
 class Replace extends Decoder {
   declare config: TokenizerConfigDecoderReplace;

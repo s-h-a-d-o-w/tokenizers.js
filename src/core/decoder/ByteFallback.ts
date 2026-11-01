@@ -1,6 +1,6 @@
-import Decoder from "../Decoder";
+import Decoder from "../Decoder.js";
 
-import type { TokenizerConfigDecoderByteFallback } from "@static/tokenizer";
+import type { TokenizerConfigDecoderByteFallback } from "../../static/tokenizer.js";
 
 class ByteFallback extends Decoder {
   text_decoder: TextDecoder;

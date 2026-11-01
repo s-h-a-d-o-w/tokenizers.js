@@ -1,7 +1,7 @@
-import { Callable } from "@utils";
+import { Callable } from "../utils/index.js";
 
-import type AddedToken from "./AddedToken";
-import type { TokenizerConfigDecoder } from "@static/tokenizer";
+import type AddedToken from "./AddedToken.js";
+import type { TokenizerConfigDecoder } from "../static/tokenizer.js";
 
 /**
  * The base class for token decoders.

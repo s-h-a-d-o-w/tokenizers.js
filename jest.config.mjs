@@ -180,12 +180,9 @@ export default {
     ],
   },
 
-  // Module name mapper for path aliases
+  // Strip the `.js` extension from relative ESM specifiers so Jest resolves the `.ts` sources
   moduleNameMapper: {
-    "^@utils$": "<rootDir>/src/utils/index.ts",
-    "^@utils/(.*)$": "<rootDir>/src/utils/$1",
-    "^@core/(.*)$": "<rootDir>/src/core/$1",
-    "^@static/(.*)$": "<rootDir>/src/static/$1",
+    "^(\\.{1,2}/.*)\\.js$": "$1",
   },
 
   // Preset for ts-jest with ESM
